@@ -19,3 +19,36 @@ SYNTAX:
     } else {
         code B;
     }
+
+    ---------------------
+    when we have more conditions to test - we can add else if {}
+
+    if (condition) {
+        code A;
+    } else if (condition) {
+        code B;
+    } else if (condition) {
+        code C;
+    } else {
+        code D;
+    }
+
+   ----------------------------------
+   nested if
+
+  WHAT:  if inside another if
+  WHY: when we have 1 condition depend on another
+  How:
+
+  if(condition) { -> outer if
+
+        if(condition) { -> nested if
+        }
+  }
+
+Scanner -----------------------
+
+Class that is used to take input from a user
+
+
+
